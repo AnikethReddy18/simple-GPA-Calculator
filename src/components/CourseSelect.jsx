@@ -1,5 +1,5 @@
 function CourseSelect() {
-    return ( <>
+    return ( <div>
           <select defaultValue={9}>
         <option value={10}>S</option>
         <option value={9}>A</option>
@@ -13,7 +13,7 @@ function CourseSelect() {
         <option value={4}>4</option>
         <option value={3}>3</option>
         <option value={2}>2</option>
-      </select></> );
+      </select></div> );
 }
 
 export default CourseSelect;
