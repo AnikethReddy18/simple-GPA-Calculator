@@ -19,11 +19,12 @@ function App() {
 
   return (
     <>
-    <div>
+    <h1>VIT GPA Calculator</h1>
+    <div className="courseComponents">
       {courseComponents}
     </div>
       <button onClick={handleClickAddCourseButton}>Add Course</button>
-      {gpa}
+      <h2>GPA: {gpa}</h2>
     </>
   );
 }

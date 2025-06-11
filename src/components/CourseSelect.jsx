@@ -10,7 +10,7 @@ function CourseSelect({index, setData}) {
         })
     }, [grade, credits])
 
-    return (<div >
+    return (<div className="courseSelect">
         <select defaultValue={9} onChange={(e) => setGrade(Number(e.target.value))}>
             <option value={10}>S</option>
             <option value={9}>A</option>
