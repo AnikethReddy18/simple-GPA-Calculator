@@ -1,12 +1,16 @@
-# React + Vite
+#Simple GPA Calculator
+A simple React-based GPA calculator for VIT students.Select your grades and credits, and instantly see your GPA. No ads, no tracking, no 500MB JavaScript bundles. Just raw, academic ✨suffering✨ turned into neat decimal values.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##Features
+ * Add multiple courses dynamically
 
-Currently, two official plugins are available:
+ * 🎯 GPA updates instantly as you change grades or credits
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ * Predefined grade-scale based on VIT (S = 10, A = 9, etc.)
 
-## Expanding the ESLint configuration
+* Fully client-side, no backend involved
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ TODO
+
+- **Prettify UI** — CSS needs some love, it's currently as aesthetic as a VIT WiFi outage.
+- **Add Remove Button** — Users should be able to remove a course, not just keep stacking them like Jenga.
