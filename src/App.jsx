@@ -1,10 +1,11 @@
+import CourseSelect from "./components/CourseSelect";
 function App() {
   return (
     <>
-     Hello World!
+      <CourseSelect />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
 
