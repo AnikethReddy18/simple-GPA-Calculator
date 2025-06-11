@@ -1,16 +1,16 @@
 import { useState, useEffect } from "react";
 
-function CourseSelect() {
+function CourseSelect({index, setData}) {
     const [grade, setGrade] = useState(9);
     const [credits, setCredits] = useState(4);
-    const [product, setProduct] = useState(36)
 
     useEffect(() => {
-        setProduct(grade * credits)
-        console.log(grade*credits)
+        setData((prev)=>{
+            return {...prev, [index]: [credits*grade, credits*10]}
+        })
     }, [grade, credits])
 
-    return (<div>
+    return (<div >
         <select defaultValue={9} onChange={(e) => setGrade(Number(e.target.value))}>
             <option value={10}>S</option>
             <option value={9}>A</option>
