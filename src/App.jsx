@@ -24,7 +24,7 @@ function App() {
       {courseComponents}
     </div>
       <button onClick={handleClickAddCourseButton}>Add Course</button>
-      <h2>GPA: {gpa}</h2>
+      <h2>GPA: {gpa*10}</h2>
     </>
   );
 }
