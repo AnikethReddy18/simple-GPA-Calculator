@@ -1,7 +1,7 @@
-#Simple GPA Calculator
+# Simple GPA Calculator
 A simple React-based GPA calculator for VIT students.Select your grades and credits, and instantly see your GPA. No ads, no tracking, no 500MB JavaScript bundles. Just raw, academic ✨suffering✨ turned into neat decimal values.
 
-##Features
+## Features
  * Add multiple courses dynamically
 
  * 🎯 GPA updates instantly as you change grades or credits
