@@ -1,12 +1,12 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import MainLayout from '../layouts/MainLayout';
+import App from '../App';
 import HomePage from '../pages/HomePage';
 import GPACalculator from '../pages/GPACalculator';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <MainLayout />,
+    element: <App />,
     children: [
       {
         index: true,
